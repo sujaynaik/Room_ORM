@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_16">
+
+    <TextView
+        style="@style/black_text_20"
+        android:layout_gravity="center"
+        android:text="Please enter user details" />
+
+    <EditText
+        android:id="@+id/tvFname"
+        style="@style/black_text_16"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/padding_8"
+        android:hint="Enter First name"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName|textCapSentences" />
+
+    <EditText
+        android:id="@+id/tvLname"
+        style="@style/black_text_16"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/padding_8"
+        android:hint="Enter Last name"
+        android:imeOptions="actionDone"
+        android:inputType="textPersonName|textCapSentences" />
+
+    <Button
+        android:id="@+id/bSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/padding_8"
+        android:text="Save" />
+
+</LinearLayout>

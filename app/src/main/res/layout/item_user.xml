@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutParent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:weightSum="6">
+
+    <TextView
+        android:id="@+id/tvId"
+        style="@style/black_text_20"
+        android:layout_width="0dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:maxLines="1"
+        android:padding="@dimen/padding_16"
+        android:text="Id" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_8">
+
+        <TextView
+            android:id="@+id/tvFname"
+            style="@style/black_text_18"
+            android:maxLines="1"
+            android:text="First name" />
+
+        <TextView
+            android:id="@+id/tvLname"
+            style="@style/black_text_16"
+            android:maxLines="1"
+            android:text="Last name" />
+
+    </LinearLayout>
+
+</LinearLayout>

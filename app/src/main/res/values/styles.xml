@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryMoreDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/google_gray_b</item>
+        <item name="android:colorBackground">@color/google_gray_b</item>
+    </style>
+
+    <style name="Toolbar" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/black_text</item>
+        <item name="android:textColorSecondary">@color/secondary_text</item>
+        <item name="actionMenuTextColor">@color/black_text</item>
+    </style>
+
+    <style name="text_black">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black_text</item>
+    </style>
+
+    <style name="text_white">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white_text</item>
+    </style>
+
+    <style name="black_text_14" parent="text_black">
+        <item name="android:textSize">@dimen/text_14</item>
+    </style>
+
+    <style name="black_text_16" parent="text_black">
+        <item name="android:textSize">@dimen/text_16</item>
+    </style>
+
+    <style name="black_text_18" parent="text_black">
+        <item name="android:textSize">@dimen/text_18</item>
+    </style>
+
+    <style name="black_text_20" parent="text_black">
+        <item name="android:textSize">@dimen/text_20</item>
+    </style>
+
+    <style name="white_text_14" parent="text_white">
+        <item name="android:textSize">@dimen/text_14</item>
+    </style>
+
+    <style name="white_text_16" parent="text_white">
+        <item name="android:textSize">@dimen/text_16</item>
+    </style>
+
+    <style name="white_text_18" parent="text_white">
+        <item name="android:textSize">@dimen/text_18</item>
+    </style>
+
+    <style name="white_text_20" parent="text_white">
+        <item name="android:textSize">@dimen/text_20</item>
+    </style>
+
+</resources>
